@@ -1,0 +1,9 @@
+{
+  "name": "Terraform AWS Dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "terraform": "latest",
+    "aws-cli": "latest"
+  },
+  "postCreateCommand": "terraform --version && aws --version"
+}
